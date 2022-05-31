@@ -1,0 +1,23 @@
+1650923171323	geckodriver	INFO	Listening on 127.0.0.1:50479
+1650923173365	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50480" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kon31\\AppData\\Local\\Temp\\rust_mozprofilejw7wTS"
+1650923173788	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kon31\\AppData\\Local\\Temp\\rust_mozprofilejw7wTS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50480/devtools/browser/3bdbbe2e-e11b-402c-a2f4-f32649f7c68e
+1650923176106	Marionette	INFO	Listening on port 50512
+Read port: 50512
+1650923176161	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1650923250518	Marionette	INFO	Stopped listening on port 50512
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50760/devtools/browser/1bd46a15-b950-47a7-8e52-147322413372
+1650923251124	Marionette	INFO	Listening on port 50795
+Read port: 50795
+1650923251249	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650923378003	Marionette	INFO	Stopped listening on port 50795
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+[Parent 26992, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
